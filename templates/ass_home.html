@@ -1,0 +1,16 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+	<div class="fluid-container jumbotron text-center">
+		<h1>IP Assassin</h1>
+		<p class="text-muted" style="font-size:16px;">Map account's primary nat and/or private ip to device number.</p>
+	<form action="/ip_assassin" method="POST" id="form1">
+		<input name="acct" type='text' placeholder='Account Number' required><br>
+	 	<input name="addr" type='text' placeholder='IP address' required><br><br>
+		<ul>
+			<li>Separate multiple ips with a comma.</li>
+		</ul>
+	</form>
+	<button class="btn btn-lg btn-outline-success" type="submit" form="form1" value="Submit">Submit</button>
+	</div>
+{% endblock %}

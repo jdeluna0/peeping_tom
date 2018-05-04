@@ -1,0 +1,2 @@
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [22/Apr/2018 17:04:13] "POST /ip_assassin HTTP/1.1" 200 -

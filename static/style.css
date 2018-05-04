@@ -1,0 +1,15 @@
+body {
+	padding-top: 65px;
+}
+h1 {
+	font-size: 60px;	
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: right;
+  /* Set the fixed height of the footer here */
+  height: 30px;
+  background-color: #f5f5f5;
+}

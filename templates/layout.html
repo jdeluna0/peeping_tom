@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>IP Assassin</title>
+		<link rel='stylesheet' type="text/css" href="{{ url_for('static', filename='style.css') }}">
+		<link rel='stylesheet' href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+	</head>
+	<body>
+		<link rel='stylesheet' type="text/css" href="{{ url_for('static', filename='style.css') }}">
+		<link rel='stylesheet' href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+		{% include 'includes/_navbar.html' %}
+		<div class="container">
+			{% block body %}{% endblock %}
+		</div>
+    		<footer class="footer">
+      			<div class="container">
+        			<p class="text-muted">Maintained by James De Luna. Please send questions/comments to james.deluna@rackspace.com.</p>
+      			</div>
+    		</footer>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+	</body>
+</html>

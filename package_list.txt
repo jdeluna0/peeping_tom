@@ -1,0 +1,4 @@
+RHEL 7
+
+yum install httpd python34 python34-pip
+pip34 install virtualenv flask
